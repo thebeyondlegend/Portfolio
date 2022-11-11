@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: none;
+}
+body {
+  margin-top: 1cm;
+  margin-left: 0.5cm;
+  margin-right: 1cm;
+  background: linear-gradient(rgb(243, 243, 243) 50%, black 50%);
+  background-repeat: no-repeat;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  width: 1455px;
+  height: 1in;
+  background-color: rgba(13, 169, 241, 0.616);
+  position: relative;
+  padding: 10px;
+  font-size: 25px;
+}
+.top img {
+  width: 150px;
+  height: 150px;
+}
+.top a {
+  text-decoration: none;
+  color: black;
+}
+
+#image {
+  padding: 1cm;
+  width: 1000px;
+  height: 100px;
+}
+#text h1 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  padding-bottom: 10px;
+  color: rgb(0, 0, 0);
+  font-size: 100px;
+}
+#text h2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#text button {
+  background: none;
+}
+#text a {
+  text-decoration: none;
+  font-size: 50px;
+  background-color: black;
+  color: azure;
+}
+#two {
+  font-size: 110px;
+  padding: 290px;
+
+  margin-left: 150px;
+  color: rgb(14, 250, 120);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.table h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 40px;
+}
+#who {
+  color: aqua;
+}
+#info {
+  color: aqua;
+}
+#power {
+  color: aqua;
+}
+#info p {
+  font-size: 10px;
+}
