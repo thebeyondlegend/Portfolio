@@ -1,27 +1,26 @@
 * {
   margin: 0;
-  border: 0;
   padding: 0;
-  background-color: none;
+  border: 0;
 }
 body {
-  margin-top: 1cm;
-  margin-left: 0.5cm;
-  margin-right: 1cm;
-  background: linear-gradient(rgb(243, 243, 243) 50%, black 50%);
-  background-repeat: no-repeat;
+  align-items: center;
+  position: absolute;
+}
+
+.index {
+  height: 1000px;
 }
 .top {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border-radius: 20px;
-  width: 1455px;
-  height: 1in;
-  background-color: rgba(13, 169, 241, 0.616);
+  border-radius: 30px;
+  background-color: rgba(7, 153, 221, 0.274);
+  font-size: 30px;
+  padding: 1px;
+  margin: 30px;
   position: relative;
-  padding: 10px;
-  font-size: 25px;
 }
 .top img {
   width: 150px;
@@ -31,59 +30,140 @@ body {
   text-decoration: none;
   color: black;
 }
-
-#image {
-  padding: 1cm;
-  width: 1000px;
-  height: 100px;
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
-#text h1 {
+.image img {
+  padding: 1cm;
+  width: 500px;
+  height: 500px;
+}
+.onetext h1 {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   padding-bottom: 10px;
-  color: rgb(0, 0, 0);
+  color: rgb(7, 4, 4);
   font-size: 100px;
 }
-#text h2 {
+
+.two {
+  background-color: black;
+}
+.wi {
+  display: flex;
+}
+
+.aboutme h1 {
+  font-size: 120px;
+  color: gray;
+}
+.aboutme h1:hover {
+  background-color: white;
+  width: 11px;
+  margin: 100px;
+}
+
+.aboutme p {
+  position: relative;
+  font-size: 25px;
+  color: turquoise;
+  margin: 50px;
+  right: 50px;
+}
+#abouti {
+  background-color: rgba(255, 255, 255, 0.301);
+  border-radius: 30px;
+  margin-right: 100px;
+  margin-left: 1px;
+  margin-top: 200px;
+}
+
+.aboutme a {
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+.aboutme h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.aboutme h3 {
+  font-size: 30px;
+}
+.aboutme li {
+  font-size: 20px;
+  color: white;
+}
+#linkemail a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  color: turquoise;
+  margin-top: 50px;
+}
+#skills {
+  font-size: 50px;
+  margin-left: 10px;
+  color: gray;
+}
+#skills:hover {
+  background-color: white;
+  width: 11px;
+}
+#edu {
+  font-size: 50px;
+  margin-left: 10px;
+  color: gray;
+}
+#edu:hover {
+  background-color: white;
+  width: 11px;
+}
+#lorem {
+  font-size: 20px;
+  margin: 10px;
+  margin-right: 100px;
+}
+#deg {
+  font-size: 20px;
+  margin: 10px;
+}
+.resume {
+  width: 210px;
+  color: turquoise;
+  text-align: center;
+  margin: 100px;
+  margin-left: 250px;
+  font-size: 50px;
+}
+.resume:hover {
+  background-color: white;
+  width: 10px;
+}
+.resume a {
+  text-decoration: none;
+  color: turquoise;
+  text-align: center;
+  width: 210px;
+  text-align: center;
+  font-size: 50px;
+}
+.contacts {
+  background-color: white;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
 }
-#text button {
-  background: none;
-}
-#text a {
-  text-decoration: none;
-  font-size: 50px;
-  background-color: black;
-  color: azure;
-}
-#two {
-  font-size: 110px;
-  padding: 290px;
-
-  margin-left: 150px;
-  color: rgb(14, 250, 120);
-  display: flex;
-  align-items: center;
-  justify-content: left;
-}
-.table h1 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 40px;
-}
-#who {
-  color: aqua;
-}
-#info {
-  color: aqua;
-}
-#power {
-  color: aqua;
-}
-#info p {
-  font-size: 10px;
+.contact img {
+  height: 40px;
+  margin-top: 50px;
 }

@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 30px;
+  background-color: rgba(7, 153, 221, 0.274);
+  font-size: 30px;
+  padding: 1px;
+  margin: 20px;
+  position: relative;
+}
+.top img {
+  width: 150px;
+  height: 150px;
+}
+.top a {
+  text-decoration: none;
+  color: black;
+}
+.name {
+  font-size: 30px;
+  width: 600px;
+}
+.name:hover {
+  background-color: turquoise;
+  width: 10px;
+  height: 100px;
+}

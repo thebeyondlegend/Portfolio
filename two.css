@@ -1,0 +1,9 @@
+.grid {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 10px 10px 10px;
+}
+.gridem {
+  background-color: teal;
+  position: 45deg;
+}
